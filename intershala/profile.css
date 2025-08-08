@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #000000;
+}
+
+.navbar {
+  background: #2a2a2a;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.navbar ul li a:hover{
+ color: #007bff;
+ box-sizing: border-box;
+ text-decoration: dashed;
+ font-size: 17px ;
+}
+
+.hero {
+  display: flex;
+  padding: 60px 30px;
+  background: #000000;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover{
+ background-color: green;
+ font-variant-emoji: emoji;
+  font-size: px;
+}
+
+.about {
+  display: flex;
+  padding: 60px 30px;
+  background: white;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+  margin-left: 30px;
+
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
